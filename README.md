@@ -7,10 +7,13 @@ Note: the *newscraper.py* file is the **parent class** for all the specific site
 
 ###### See the examples folder to view the sample HTML output document source. Also in that folder are more images, however the current graphs created by the program are fairly messy and need to be made more aesthetically pleasing in the future.
 
+
+
 <a href="https://cdn.rawgit.com/alexander-hamme/Science_Article_Webscraper/a0351637/examples/html_output_articles_list.html">
   <img src="https://github.com/alexander-hamme/Science_Article_Webscraper/blob/master/examples/screenshot.png?raw=true" alt="Image could not be loaded, please look in the examples folder of this repository."></a>
 
-
+-----
+###### Sample graph:
 -----
 
 <img src="https://github.com/alexander-hamme/Science_Article_Webscraper/blob/master/examples/popular_mechanics_graph2.PNG?raw=true" alt="Image could not be loaded, please look in the examples folder of this repository.">
