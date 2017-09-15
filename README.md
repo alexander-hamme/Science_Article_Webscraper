@@ -14,6 +14,6 @@ Note: the *newscraper.py* file is the **parent class** for all the specific site
 
 -----
 ###### Sample graph:
------
+
 
 <img src="https://github.com/alexander-hamme/Science_Article_Webscraper/blob/master/examples/popular_mechanics_graph2.PNG?raw=true" alt="Image could not be loaded, please look in the examples folder of this repository.">
