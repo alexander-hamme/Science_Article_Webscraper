@@ -17,3 +17,6 @@ Note: the `newsscraper.py` file is the **parent class** for all the individual s
 
 
 <img src="https://github.com/alexander-hamme/Science_Article_Webscraper/blob/master/examples/popular_mechanics_graph2.PNG?raw=true" alt="Image could not be loaded, please look in the examples folder of this repository.">
+
+
+###### Final notes: in order to actually implement these scrapers, Chromedriver is needed. Additionally, from time to time websites mayb be updated and element tag names changed, so double checking these identifiers are correct is recommended.
