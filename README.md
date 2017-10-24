@@ -20,4 +20,4 @@ Note: the `newsscraper.py` file is the **parent class** for all the individual s
 
 
 
-###### Final notes: in order to implement these scrapers, Chromedriver is needed. Additionally, from time to time websites mayb be updated and element tag names changed, so double checking that these identifiers are correct is recommended.
+###### Final notes: in order to implement these scrapers, Chromedriver is needed. Additionally, keep in mind that websites get updated, and when this happens element tag names may change, so double checking that these identifiers are still correct is recommended.
