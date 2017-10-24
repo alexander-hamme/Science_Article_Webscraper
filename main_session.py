@@ -30,15 +30,13 @@ def main():
     print "Sorting articles"
     sort_t = time.time()
 
-    try:
-        list_of_articles.sort(key=lambda a: a.date_time, reverse=True)
-    except:
-        print "Error sorting articles"
-    else:
-        print "Elapsed sorting time: {} seconds".format(int(10000000*(time.time() - sort_t))/10000000.0)
-    finally:
-        with open("articles.dat", "wb") as f:
-            pickle.dump(list_of_articles, f)
+    
+    list_of_articles.sort(key=lambda a: a.date_time, reverse=True)
+    
+    print "Elapsed sorting time: {} seconds".format(int(10000000*(time.time() - sort_t))/10000000.0)
+
+    with open("articles.dat", "wb") as f:
+        pickle.dump(list_of_articles, f)        # Serialize list of article objects for future use
 
     news.write_to_file(list_of_articles)
 
