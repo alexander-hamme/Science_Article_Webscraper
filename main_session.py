@@ -1,10 +1,11 @@
-import time
 import newsscraper
 import engadgetscraper
 import techcrunchscraper
 import popularmechanicsscraper
 import find_trends
 import pickle
+import time
+
 
 def main():
     t = time.time()
