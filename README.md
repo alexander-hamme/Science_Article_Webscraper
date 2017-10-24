@@ -1,5 +1,5 @@
 # science_article_webscraper
-A **web crawler** that collects data about thousands of science articles, using Requests, Urllib2, and Selenium modules. Program visualizes article statistics using Plotly library, then outputs an HTML document.
+A **web crawler** that collects data about science articles, using Requests, Urllib2, and Selenium modules. Program visualizes article statistics using Plotly library, then outputs an HTML document.
 
 
 Note: the `newsscraper.py` file is the **parent class** for all the individual site scrapers. In order to add a new website scraper, have it inherit all the functions from this class. This project currently collects data from three websites: engadget, popularmechanics, and techcrunch. Scrapers for additional websites can easily be added to `main_session.py`.
