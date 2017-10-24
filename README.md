@@ -5,7 +5,7 @@ A **web crawler** that collects data about science articles, using Requests, Url
 Note: the `newsscraper.py` file is the **parent class** for all the individual site scrapers. In order to add a new website scraper, have it inherit all the functions from this class. This project currently collects data from three websites: engadget, popularmechanics, and techcrunch. Scrapers for additional websites can easily be added to `main_session.py`.
 
 
-###### See the examples folder to view the sample HTML output document source. Also in that folder are more images, however the current graphs created by the program are fairly messy and will need to be cleaned up.
+###### See the examples folder to view the sample HTML output document source. Also in that folder are more images, however the current graphs created by the program are fairly messy and need to be cleaned up.
 
 
 
